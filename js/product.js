@@ -67,7 +67,7 @@ section.click(sectionToggle)
 searchButton.click(inputToggle)
 filterButton.click(filterToggle)
 instance.click(instanceToggle)
-
+instance2.click(instanceToggle)
 //
 
 
@@ -77,7 +77,7 @@ instance.click(instanceToggle)
 switcher.click()
 filterButton.click()
 instance.click()
-
+  $('.overlay').hide()
 
 
 //versions
@@ -88,25 +88,20 @@ $('.alpha').click(function () {
   instance2.hide()
   input.addClass('input-collapsed');
   instance.show()
+  $('#page-title').html('Prism-Central')
   $('.search').removeClass('fw');
   $('.search').parent('div').removeClass('correction')
   $('.product-detail').removeClass('ver2-prod')
   $('input, button').removeClass('ver2-assets')
   $('.product-detail').find('div.grid').removeClass('ver2-grid');
 })
-
-instance2.click(instanceToggle)
-
 $('.beta').click(function(){
-switcher.click()
   //
   $('.alpha').click()
   $('.instance-trigger').toggleClass('ver2-instance')
   instance2.show()
   $('.product-detail').find('div.grid').addClass('ver2-grid');
 })
-
-
 $('.cappa').click(function(){
   $('.alpha').click()
   instance.hide()
@@ -115,14 +110,14 @@ $('.cappa').click(function(){
   $('.search').parent('div').addClass('correction')
   $('.product-detail').addClass('ver2-prod')
   $('.search, button').addClass('ver2-assets')
+  $('#page-title').html('PC · &nbsp; <kbd> Prism-EMEA</kbd>')
 })
 
-$('.beta').click()
 
+//popup
 $('.instance-viewer, .close').click(function () {
   $('.overlay').hide()
 })
-
 $('.prism').click(function () {
   $('.overlay').show()
 })
