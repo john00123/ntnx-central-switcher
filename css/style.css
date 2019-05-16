@@ -178,12 +178,16 @@ footer {
   width: 500px;
   box-sizing: border-box;
   border-radius: 4px;
+  padding: 20px;
 }
 
 .popup-header {
   height: 50px;
   border-bottom: 1px solid #F2F4F6;
   width: 100%;
+  margin: -20px;
+  width: calc(100% + 40px);
+  margin-bottom: 30px;
 }
 
 .popup-header img {
@@ -191,10 +195,12 @@ footer {
 }
 
 .popup-body {
+  margin-top: 0px;
   border-radius: 4px;
   border: 1px solid #D5DAE0;
-  width: calc(100% - 40px);
-  margin: 20px;
+  width: calc(100%);
+  margin-bottom: 10px;
+  min-height: 361px;
 }
 
 .primary {
@@ -228,17 +234,31 @@ footer {
   line-height: 9pt;
 }
 
-.instance {
-  padding: 20px;
+.instance-viewer {
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
-.instance:not(:last-child) {
+.instance-viewer:not(:last-child) {
   border-bottom: 1px solid #F2F4F6;
 }
 
-.instance p {
+.instance-viewer:hover {
+  color: #22A5F7;
+  cursor: pointer;
+}
+
+.instance-viewer img {
+  transform: rotate(-90deg);
+}
+
+.instance-viewer p {
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.instance-viewer h3 {
+  margin-bottom: 5px;
 }
 
 .products {
@@ -724,12 +744,62 @@ hr {
 
 .ver2-instance {
   pointer-events: none;
+  flex-shrink: 0;
 }
 
 .instance-trigger-2 {
   width: auto;
   display: none;
   flex-shrink: 0;
+}
+
+.fw {
+  width: 430px !important;
+}
+
+.correction {
+  margin-left: -5px;
+}
+
+.ver2-prod {
+  margin-top: 30px;
+  background-color: transparent;
+  padding: 0 10px;
+  min-height: auto;
+}
+
+.ver2-assets {
+  background-color: #1B2025;
+}
+
+.ver2-grid {
+  padding: 0 12px;
+}
+
+.ver2-grid .app {
+  margin: 5px;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 20px;
+  padding-top: 50px;
+  height: 40px;
+  text-align: center;
+  position: relative;
+  border: none;
+  background: #1B2025;
+}
+
+.ver2-grid .app:after {
+  content: '';
+  height: 20px;
+  width: 18px;
+  box-sizing: border-box;
+  background: url("../logos/prism_central.svg");
+  opacity: 0.3;
+  background-size: contain;
+  position: absolute;
+  top: 30px;
+  left: calc(50% - 10px);
 }
 
 html {

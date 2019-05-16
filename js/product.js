@@ -49,6 +49,19 @@ $('.inst').click(function () {
   $('.instance-group').slideToggle()
 })
 
+function filter2(){
+  let searchValue =  $('#inst-filter').val().toLowerCase();
+
+  if (searchValue === '' ) {
+    $('.instance-viewer').show();
+  }
+  else {
+    console.log(searchValue)
+    $('.instance-viewer').hide();
+    $(`.instance-viewer:contains(${searchValue})`).show();
+  }
+}
+
 switcher.click(viewToggle)
 section.click(sectionToggle)
 searchButton.click(inputToggle)
@@ -57,9 +70,14 @@ instance.click(instanceToggle)
 
 //
 
+
+
+
+
 switcher.click()
 filterButton.click()
 instance.click()
+
 
 
 //versions
@@ -68,10 +86,43 @@ instance.click()
 $('.alpha').click(function () {
   $('.instance-trigger').removeClass('ver2-instance')
   instance2.hide()
+  input.addClass('input-collapsed');
+  instance.show()
+  $('.search').removeClass('fw');
+  $('.search').parent('div').removeClass('correction')
+  $('.product-detail').removeClass('ver2-prod')
+  $('input, button').removeClass('ver2-assets')
+  $('.product-detail').find('div.grid').removeClass('ver2-grid');
 })
+
 instance2.click(instanceToggle)
 
 $('.beta').click(function(){
+switcher.click()
+  //
+  $('.alpha').click()
   $('.instance-trigger').toggleClass('ver2-instance')
   instance2.show()
+  $('.product-detail').find('div.grid').addClass('ver2-grid');
+})
+
+
+$('.cappa').click(function(){
+  $('.alpha').click()
+  instance.hide()
+  input.removeClass('input-collapsed');
+  $('.search').addClass('fw');
+  $('.search').parent('div').addClass('correction')
+  $('.product-detail').addClass('ver2-prod')
+  $('.search, button').addClass('ver2-assets')
+})
+
+$('.beta').click()
+
+$('.instance-viewer, .close').click(function () {
+  $('.overlay').hide()
+})
+
+$('.prism').click(function () {
+  $('.overlay').show()
 })
