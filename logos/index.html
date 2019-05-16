@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://john00123.github.io/ntnx-tile/font/font.css" type="text/css" charset="utf-8"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>🔰 New Project</title>
+</head>
+<body>
+    <header hcd fw>
+      <div class='hamburger'> <div class='patty'></div></div>
+      <div class='switcher' hcs>
+        <img id='prod-logo' src='./logos/prism_central.svg' />
+        <h3 hcs id="page-title" class='page-title'>Prism Central</h3>
+        <div hc class='arrow'></div>
+      </div>
+      <div class='user-title main-back' hcd>
+        Joel Daniels <img src="./images/arrow.svg" />
+      </div>
+    </header>
+
+    <div class='products' vcs>
+      <div fw hcd class='product-detail'>
+        <div hcs class='instance-trigger'>
+          <div class='logo'>  <img id='prod-logo' src='./logos/prism_central.svg' /></div>
+          <h3  class='instance'> Prism-central-EMEA</h3>
+          <h3 alt class='instance'> Prism-central-EMEA</h3>
+        </div>
+        <div hcs>
+          <input hc class='search input-collapsed' onkeyup='filter()' value='' />
+          <button vc class='search-button'><img id='search-icon' src='./images/search.svg' /></button>
+
+          <button vc class='filter-button'><img id='filter-icon' src='./images/filter.svg' /></button>
+        </div>
+      </div>
+      <div class='app-group' fw>
+        <label hs> Nutanix Core </label>
+        <div class='grid'>
+          <div class='app nutanix' hcd> nutanix central </div>
+          <div class='app prism app-selected' hcd> prism central </div>
+          <div class='app calm' hcd> calm </div>
+          <div class='app files' hcd> files </div>
+          <div class='app buckets' hcd> buckets </div>
+        </div>
+      </div>
+
+      <div class='app-group' fw>
+        <label> Nutanix Xi Cloud Services </label>
+        <div class='grid'>
+          <div class='app frame' hcd> frame </div>
+          <div class='app mine' hcd> mine </div>
+          <div class='app leap' hcd> leap </div>
+        </div>
+      </div>
+    </div>
+
+    <footer hc>
+      <div class='option alpha active' hc>Version 1</div>
+      <div class='option beta' hc>Version 2</div>
+      <div class='option cappa' hc>Version 3</div>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="js/script.js" charset="utf-8"></script>
+<script src="js/product.js" charset="utf-8"></script>
+<script src="js/footer.js" charset="utf-8"></script>
+</body>
+</html>

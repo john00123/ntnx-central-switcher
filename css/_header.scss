@@ -1,0 +1,70 @@
+//main:style.scss
+
+header{
+  @include size(60px, 100%);
+  @include flex(center, space-between, row);
+  background: $background-color-1;
+  padding   : 0 20px;
+  color     : $white;
+}
+
+header{
+  top : 0;
+  left: 0;
+  z-index: 10;
+  position: fixed;
+}
+
+
+//Nutanix Central Switcher
+.page-title, .arrow{
+  flex-shrink: 0;
+  margin-left: 15px;
+}
+
+.page-title{
+  @include transition(transform);
+  font-weight: 600;
+}
+
+.arrow{
+  background: $background-color-2;
+  @include size(16px, 16px);
+  border-radius: 50%;
+}
+
+.switcher:hover{
+  background: $semi-black;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.switcher{
+  padding: 0 15px;
+  &:active{background:rgba(0,0,0,0.4)}
+}
+
+
+//User Area
+
+.user-title{
+  @include transition(color);
+  transition-duration: 200ms;
+  color: $grey-3;
+  font-weight: 600;
+
+  * { margin-left: 10px}
+
+  polyline {
+    @include transition(stroke);
+    transition-duration: 200ms;
+    will-change: color;
+    stroke: $grey-3;
+  }
+
+  &:hover{
+    polyline { stroke: $white }
+    cursor: pointer;
+    color : $white;
+  }
+}

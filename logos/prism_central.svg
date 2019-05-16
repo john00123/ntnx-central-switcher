@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Prism</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="3.08307394e-05 0.997 17.9998148 0.997 17.9998148 20.9998 3.08307394e-05 20.9998"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Prism" transform="translate(0.000000, -1.000000)">
+            <polygon id="Fill-1" fill="#4D5969" fill-rule="nonzero" points="16.1274 14.6162 9.8504 11.6462 9.8504 3.6152 9.0004 2.1252 8.1504 3.6152 8.1504 11.6462 1.8724 14.6162 1.1034 15.9652 2.0434 16.4332 9.0004 13.1412 15.9564 16.4332 16.8974 15.9652"></polygon>
+            <g id="Group-4" transform="translate(0.000000, 0.002900)">
+                <g id="Fill-2-Clipped">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="path-1"></g>
+                    <path d="M15.9619,15.6748 L8.9999,19.1368 L2.0379,15.6748 L8.9999,3.4728 L15.9619,15.6748 Z M17.8559,15.4238 L9.9359,1.5438 C9.7409,1.2008 9.3909,0.9968 8.9999,0.9968 C8.6089,0.9968 8.2589,1.2008 8.0639,1.5438 L0.1449,15.4238 C-0.0041,15.6848 -0.0401,15.9988 0.0459,16.2868 C0.1329,16.5748 0.3359,16.8168 0.6039,16.9498 L8.5239,20.8878 C8.6709,20.9618 8.8359,20.9998 8.9999,20.9998 C9.1649,20.9998 9.3289,20.9618 9.4769,20.8878 L17.3969,16.9498 C17.6639,16.8168 17.8669,16.5758 17.9539,16.2868 C18.0399,15.9988 18.0039,15.6848 17.8559,15.4238 L17.8559,15.4238 Z" id="Fill-2" fill="#9AA5B5" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

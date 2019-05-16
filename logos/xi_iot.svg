@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Xi-Iot</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 20 20 20 20 0 0 0"></polygon>
+        <polygon id="path-3" points="0 20 20 20 20 0 0 0"></polygon>
+        <polygon id="path-5" points="0 20 20 20 20 0 0 0"></polygon>
+        <polygon id="path-7" points="0 20 20 20 20 0 0 0"></polygon>
+        <polygon id="path-9" points="0 20 20 20 20 0 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Xi-Iot" transform="translate(-0.000000, 0.000000)">
+            <path d="M5.5449,1.2905 L5.5349,1.2905 C5.5379,1.3075 5.5429,1.3235 5.5449,1.3405 L5.5449,1.2905 Z" id="Fill-1" fill="#AFD136" fill-rule="nonzero"></path>
+            <path d="M14.4561,1.3325 C14.4561,1.3345 14.4561,1.3365 14.4551,1.3385 C14.4561,1.3365 14.4561,1.3345 14.4561,1.3325 Z" id="Fill-3" fill="#AFD136" fill-rule="nonzero"></path>
+            <polyline id="Fill-5" fill="#4D5969" fill-rule="nonzero" points="6 18 6 16 4 16 4 18"></polyline>
+            <polyline id="Fill-7" fill="#4D5969" fill-rule="nonzero" points="4 2 4 4 6 4 6 2 4.377 2"></polyline>
+            <polyline id="Fill-9" fill="#4D5969" fill-rule="nonzero" points="6 14 6 6 4 6 4 14"></polyline>
+            <g id="Fill-11-Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="path-1"></g>
+                <polygon id="Fill-11" fill="#4D5969" fill-rule="nonzero" mask="url(#mask-2)" points="14 4 16 4 16 2 14 2"></polygon>
+            </g>
+            <g id="Fill-13-Clipped">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="path-1"></g>
+                <polyline id="Fill-13" fill="#4D5969" fill-rule="nonzero" mask="url(#mask-4)" points="14 14 16 14 16 4 14 4"></polyline>
+            </g>
+            <g id="Fill-14-Clipped">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="path-1"></g>
+                <polyline id="Fill-14" fill="#4D5969" fill-rule="nonzero" mask="url(#mask-6)" points="16 18 16 16 14 16 14 18"></polyline>
+            </g>
+            <g id="Fill-15-Clipped">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="path-1"></g>
+                <path d="M18.4678,0 L15.6478,0 C14.8918,0 14.1188,0.252 13.9998,1 L13.9998,2 L17.9998,2 L17.9998,4 L1.9438,3.944 L1.9998,2 L5.9998,2 L5.9998,1 C5.8808,0.252 5.1088,0 4.3518,0 L1.5318,0 C0.6878,0 -0.0002,0.688 -0.0002,1.534 L-0.0002,4.356 C-0.0002,5.202 0.6878,6 1.5318,6 L18.4678,6 C19.3128,6 19.9998,5.202 19.9998,4.356 L19.9998,1.534 C19.9998,0.688 19.3128,0 18.4678,0" id="Fill-15" fill="#9AA5B5" fill-rule="nonzero" mask="url(#mask-8)"></path>
+            </g>
+            <g id="Fill-16-Clipped">
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <g id="path-1"></g>
+                <path d="M18.4595,14 L1.5405,14 C0.6955,14 0.0075,14.798 0.0075,15.644 L0.0075,18.466 C0.0075,19.312 0.6955,20 1.5405,20 L4.3595,20 C5.1145,20 5.8915,19.748 6.0005,19 L6.0005,18 L2.0005,18.014 L2.0005,16 L18.0005,16 L18.0005,18 L14.0005,17.986 L14.0005,19 C14.1085,19.748 14.8845,20 15.6395,20 L18.4595,20 C19.3045,20 19.9915,19.312 19.9915,18.466 L19.9915,15.644 C19.9915,14.798 19.3045,14 18.4595,14" id="Fill-16" fill="#9AA5B5" fill-rule="nonzero" mask="url(#mask-10)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

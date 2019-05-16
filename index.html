@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://john00123.github.io/ntnx-tile/font/font.css" type="text/css" charset="utf-8"/>
+  <link rel="stylesheet" href="css/style.css">
+  <title>🔰 New Project</title>
+</head>
+<body>
+    <header hcd fw>
+      <div class='hamburger'> <div class='patty'></div></div>
+      <div class='switcher' hcs>
+        <img id='prod-logo' src='./logos/prism_central.svg' />
+        <h3 hcs id="page-title" class='page-title'>Prism Central</h3>
+        <div hc class='arrow'></div>
+      </div>
+      <div class='user-title main-back' hcd>
+        Joel Daniels <img src="./images/arrow.svg" />
+      </div>
+    </header>
+
+    <div class='products' vcs>
+      <div fw vcs class='product-detail'>
+        <div fw hcd class='details'>
+          <div hcs class='instance-trigger'>
+            <div class='text'>
+              <h3 class='inst-name'> Prism-EMEA</h3>
+              <div class='overflow'><h3 alt class='project-name'> Development <br> Switch Instance</h3></div>
+            </div>
+          </div>
+          <div hcs>
+            <input hc class='search input-collapsed' onkeyup='filter()' value='' />
+            <button vc class='search-button'><img id='search-icon' src='./images/search.svg' /></button>
+
+            <button vc class='filter-button'><img id='filter-icon' src='./images/filter.svg' /></button>
+
+            <button hc class='instance-trigger-2'>Instances <img id='filter-icon' style='margin-left:10px' src='./images/Mask.svg' /></button>
+          </div>
+        </div>
+
+
+
+        <div class='instance-group' fw>
+          <div class='grid'>
+            <div class='app inst emea app-selected' hcd> Prism-EMEA  </div>
+            <div class='app inst prism ' hcd> Prism-AMA </div>
+            <div class='app inst calm' hcd> Prism-DEVApp </div>
+            <div class='app inst files' hcd> Prism-Central-002 </div>
+            <div class='app inst buckets' hcd> Puppy-food DEV </div>
+          </div>
+        </div>
+
+
+      </div>
+
+
+
+      <div class='app-group' fw>
+        <label hs> Nutanix Essentials </label>
+        <div class='grid'>
+          <div class='app nutanix' hcd> nutanix central </div>
+          <div class='app prism app-selected' hcd> prism central <kbd vc>5</kbd> </div>
+          <div class='app calm' hcd> calm </div>
+          <div class='app files' hcd> files </div>
+          <div class='app flow' hcd> flow </div>
+          <div class='app lcm' hcd> lcm </div>
+        </div>
+      </div>
+
+      <div class='app-group' fw>
+        <label> Nutanix Enterprise </label>
+        <div class='grid'>
+          <div class='app buckets' hcd> buckets </div>
+          <div class='app era' hcd> era </div>
+          <div class='app karbon' hcd> karbon </div>
+          <div class='app mine' hcd> mine </div>
+          <div class='app volumes' hcd> volumes </div>
+          <div class='app beam' hcd> beam </div>
+          <div class='app frame' hcd> frame </div>
+        </div>
+      </div>
+    </div>
+
+    <footer hc>
+      <div class='option alpha active' hc>Version 1</div>
+      <div class='option beta' hc>Version 2</div>
+      <div class='option cappa' hc>Version 3</div>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="js/script.js" charset="utf-8"></script>
+<script src="js/product.js" charset="utf-8"></script>
+<script src="js/footer.js" charset="utf-8"></script>
+</body>
+</html>

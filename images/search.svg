@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M19.1716035,37.7573899 L21.7071068,40.2928932 C22.0976311,40.6834175 22.0976311,41.3165825 21.7071068,41.7071068 C21.3165825,42.0976311 20.6834175,42.0976311 20.2928932,41.7071068 L17.7573899,39.1716035 C16.9669569,39.6951232 16.0190823,40 15,40 C12.2385763,40 10,37.7614237 10,35 C10,32.2385762 12.2385763,30 15,30 C17.7614238,30 20,32.2385762 20,35 C20,36.0190823 19.6951232,36.9669569 19.1716035,37.7573899 Z M15,38 C16.6568543,38 18,36.6568542 18,35 C18,33.3431457 16.6568543,32 15,32 C13.3431458,32 12,33.3431457 12,35 C12,36.6568542 13.3431458,38 15,38 Z" id="path-1"></path>
+    </defs>
+    <g id="//-Nutanix-Central---Option-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header-View-Search" transform="translate(-916.000000, -102.000000)">
+            <g id="Applications" transform="translate(10.000000, 0.000000)">
+                <g id="AppSeparators" transform="translate(333.000000, 60.000000)">
+                    <g id="Search-+-Filter" transform="translate(563.000000, 12.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#9AA5B5" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
