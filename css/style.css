@@ -261,6 +261,10 @@ footer {
   margin-bottom: 5px;
 }
 
+.close:hover {
+  cursor: pointer;
+}
+
 .products {
   position: absolute;
   display: flex;
