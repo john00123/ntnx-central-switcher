@@ -31,8 +31,8 @@ button{
   border-radius:  4px 0 0 4px!important;
   border-right: none!important;
   transform: translateX(15px);
-  transform-origin: calc(100% + 15px) 50%;
-  @include transition(transform);
+  // transform-origin: calc(100% + 15px) 50%;
+  // @include transition(transform);
 }
 
 .input-collapsed{
@@ -45,7 +45,7 @@ button{
 .instance-trigger{
   // border: 1px solid green;
   padding: 8px 10px;
-  padding-right: 25px;
+  padding-right: 15px;
   border-radius: 4px;
   transform: translateX(-5px);
   position: relative;
@@ -58,7 +58,7 @@ button{
 }
 
 .instance-trigger::after{
-  opacity: 0;
+  opacity: 1;
   content:'';
   background: url('../images/Mask.svg');
   @include size(7px,4px);
@@ -67,7 +67,10 @@ button{
   right: 10px;
 }
 
+.sub-inst{
+  background: rgba(0,0,0,0.2);
 
+}
 
 
 .text h3{

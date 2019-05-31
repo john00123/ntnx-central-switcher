@@ -37,6 +37,7 @@ function filterToggle() {
 function instanceToggle() {
   $('.instance-group').slideToggle()
 }
+
 function inputToggle(){
   input.toggleClass('input-collapsed');
   input.val('')
@@ -64,7 +65,7 @@ function filter2(){
 
 switcher.click(viewToggle)
 section.click(sectionToggle)
-searchButton.click(inputToggle)
+// searchButton.click(inputToggle)
 filterButton.click(filterToggle)
 instance.click(instanceToggle)
 instance2.click(instanceToggle)
@@ -72,12 +73,12 @@ instance2.click(instanceToggle)
 
 
 
-
+$('.sub-inst').hide()
 
 switcher.click()
 filterButton.click()
 instance.click()
-  $('.overlay').hide()
+$('.overlay').hide()
 
 
 //versions
@@ -118,6 +119,7 @@ $('.cappa').click(function(){
 $('.instance-viewer, .close').click(function () {
   $('.overlay').hide()
 })
-$('.prism').click(function () {
-  $('.overlay').show()
+$('.prism').click(function(){
+  $('.sub-inst').toggle()
+  $(this).toggleClass('clicked')
 })

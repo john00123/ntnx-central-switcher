@@ -365,6 +365,27 @@ footer {
   box-sizing: border-box;
 }
 
+.app-selected::after {
+  opacity: 0;
+  content: '';
+  background: url("../images/Mask.svg");
+  height: 7px;
+  width: 4px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.app-selected:hover:after {
+  opacity: 1;
+}
+
+.clicked {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
 .app:hover {
   cursor: pointer;
   color: white;
@@ -434,8 +455,6 @@ button span {
   border-radius: 4px 0 0 4px !important;
   border-right: none !important;
   transform: translateX(15px);
-  transform-origin: calc(100% + 15px) 50%;
-  transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .input-collapsed {
@@ -444,7 +463,7 @@ button span {
 
 .instance-trigger {
   padding: 8px 10px;
-  padding-right: 25px;
+  padding-right: 15px;
   border-radius: 4px;
   transform: translateX(-5px);
   position: relative;
@@ -464,7 +483,7 @@ button span {
 }
 
 .instance-trigger::after {
-  opacity: 0;
+  opacity: 1;
   content: '';
   background: url("../images/Mask.svg");
   height: 7px;
@@ -473,6 +492,10 @@ button span {
   position: absolute;
   top: 12px;
   right: 10px;
+}
+
+.sub-inst {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .text h3 {

@@ -78,6 +78,26 @@
     @include size(16px, 16px);
   }
 }
+.app-selected::after{
+  opacity: 0;
+  content:'';
+  background: url('../images/Mask.svg');
+  @include size(7px,4px);
+  position: absolute;
+  top:15px;
+  right: 20px;
+}
+
+.app-selected:hover{
+  &:after{
+      opacity: 1;
+  }
+}
+
+.clicked{
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+}
 
 // .app::after{
 //   content: '';
